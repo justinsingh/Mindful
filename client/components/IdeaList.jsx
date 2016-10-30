@@ -80,7 +80,7 @@ class IdeaList extends React.Component {
             {this.state.emptyList && this.state.addMode === false ? renderNoEntries() : <div />}
           </div>
         </div>
-        <btn onClick={this.toggleAddMode} >
+        <btn onClick={this.toggleAddMode}>
           <AddEntryButton />
         </btn>
       </div>
